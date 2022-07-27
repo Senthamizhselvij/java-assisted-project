@@ -5,7 +5,8 @@ public class ArithmecticCalculator {
 	public static void main(String[] args) 
 	{
 		
-	 Scanner scr=new Scanner(System.in); 
+	 @SuppressWarnings("resource")
+	Scanner scr=new Scanner(System.in); 
 	 
 	 
 	 System.out.println("Choose an operator: +,-,*, or /");

@@ -13,7 +13,8 @@ public class EmailArray {
 	        boolean found = false;
 	        int index = 0;
 	        
-	        Scanner Str=new Scanner(System.in);
+	        @SuppressWarnings("resource")
+			Scanner Str=new Scanner(System.in);
 	        System.out.println("Enter the Email ID:");
 	        String a= Str.nextLine(); 
 	       for (int i = 0; i <strArray.length; i++) {
